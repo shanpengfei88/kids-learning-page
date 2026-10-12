@@ -1,0 +1,1 @@
+function c(r){const o=Math.max(0,r),t=Math.round(o/1e3);if(t<60)return`${t} 秒`;const a=Math.floor(t/60),n=t%60;return n===0?`${a} 分`:`${a} 分 ${n} 秒`}function f(r){const o=Math.max(0,r),t=Math.floor(o/1e3),a=Math.floor(t/60),n=t%60,s=Math.floor(o%1e3/100);return`${a}:${String(n).padStart(2,"0")}.${s}`}export{f as a,c as f};
